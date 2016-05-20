@@ -1,22 +1,27 @@
 {
   "name": "mould-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client library for mould protocol",
-  "main": "dist/mould.js",
+  "main": "mould.js",
   "scripts": {
     "prepublish": "tsc"
   },
   "author": "Denis Kolodin",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DenisKolodin/mould-ts"
+  },
   "typescript": {
-    "definition": "dist/mould.d.ts"
+    "definition": "mould.d.ts"
   },
   "peerDependencies": {
     "es6-shim": "^0.35.1",
     "rxjs": "5.0.0-beta.6"
   },
   "devDependencies": {
-    "rxjs": "5.0.0-beta.6",
-    "typescript": "~1.8.10"
+    "typescript": "~1.8.10",
+    "es6-shim": "^0.35.1",
+    "rxjs": "5.0.0-beta.6"
   }
 }
