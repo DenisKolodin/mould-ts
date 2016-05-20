@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"moduleResolution": "node",
+		"target": "es5",
+		"noImplicitAny": true,
+		"outDir": "."
+	},
+	"files": [
+		"src/mould.ts"
+	]
+}
